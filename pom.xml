@@ -18,6 +18,13 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<modules>
+		<module>../member-service</module>
+		<module>../mobile-service</module>
+		<module>../order-service-api</module>
+		<module>../voucher-service-impl</module>
+	</modules>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
